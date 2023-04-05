@@ -1,0 +1,21 @@
+body{
+    position: relative;
+}
+.particles{
+    height:100vh;
+    width: 100vw;
+    opacity: .4;
+    position: fixed;
+    z-index: -1;
+}
+.fondo{
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
+@media only screen and (max-width:900px){
+    .fondo{
+        height: 100vh;
+        width: auto;
+    }
+}
