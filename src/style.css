@@ -1,5 +1,6 @@
 body{
     position: relative;
+    color: aliceblue;
 }
 .particles{
     height:100vh;

@@ -72,13 +72,13 @@ export const Form = () => {
           style={{ marginTop: "1rem" }}
         >
           <label htmlFor="name" className="form-label">Nombre</label>
-          <input type="text" id="name" className="form-control" value={usuarios.name} name="name" onChange={handleChange} />
+          <input style={{backgroundColor:'rgba(0,0,0,0.6)', color:'white'}} type="text" id="name" className="form-control" value={usuarios.name} name="name" onChange={handleChange} />
         </div>
         <div className="form-group"
           style={{ marginTop: "1rem" }}
         >
           <label htmlFor="surname" className="form-label">Apellido</label>
-          <input type="text" id="surname" className="form-control" value={usuarios.surname} name='surname' onChange={handleChange} />
+          <input style={{backgroundColor:'rgba(0,0,0,0.6)', color:'white'}} type="text" id="surname" className="form-control" value={usuarios.surname} name='surname' onChange={handleChange} />
         </div>
         <div className="form-group"
           style={{ marginTop: "50px" }}
